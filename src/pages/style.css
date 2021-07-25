@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: content-box;    
+}
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+.head{
+    font-family: 'Bungee Outline', "cursive";
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 44px;
+    color:  blue;
+    text-shadow: 2px 2px #ff0000;
+    text-align: center;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+.btn{
+  font-family: 'Sansita Swashed', cursive !important;
+  margin: 10px 0px !important;
+  font-weight:bold !important;
+  font-size: 22px !important;
+  width: 100% !important;
+  padding: 5px !important;
+}
+
+.inputArea,
+.dataList {
+    background-color: #aeffd9;
+    margin: 10px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-bo,
+
+}
+
+.paper{
+    box-shadow: inset -5px -5px 40px 5px #888888, 5px 5px 30px 5px blue !important;
+    border: 4px solid #493131;
+}
+
+.listBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Sansita Swashed', cursive !important;
+
+
+}
+
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 80px !important;
+    height: 80px !important;
+    animation: spin 2s linear infinite !important;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
